@@ -24,11 +24,11 @@ platforms.
 
 The system generates recommendations based on:
 
--   Movie genres\
--   Keywords\
--   Cast\
--   Crew\
--   Movie overview\
+-   Movie genres
+-   Keywords
+-   Cast
+-   Crew
+-   Movie overview
 -   Combined metadata tags
 
 These features are transformed into vector representations to calculate
@@ -43,8 +43,8 @@ similarity between movies.
 
 Why cosine similarity?
 
--   Performs well in high-dimensional spaces\
--   Works efficiently with sparse text data\
+-   Performs well in high-dimensional spaces
+-   Works efficiently with sparse text data
 -   Captures similarity in content rather than magnitude
 
 Each movie is converted into a feature vector based on combined
@@ -103,10 +103,10 @@ Screenshots of the recommendation interface and outputs:
 
 The project uses the TMDB 5000 Movies Dataset, which contains:
 
--   Movie metadata\
--   Genres\
--   Cast and crew information\
--   Keywords\
+-   Movie metadata
+-   Genres
+-   Cast and crew information
+-   Keywords
 -   Unique movie IDs
 
 The datasets were merged, cleaned, and transformed during preprocessing.
@@ -115,12 +115,12 @@ The datasets were merged, cleaned, and transformed during preprocessing.
 
 ## 🛠️ Tech Stack
 
--   Python\
--   Pandas\
--   Scikit-learn\
--   Streamlit\
--   TMDB API\
--   Pickle\
+-   Python
+-   Pandas
+-   Scikit-learn
+-   Streamlit
+-   TMDB API
+-   Pickle
 -   Cosine Similarity
 
 ------------------------------------------------------------------------
@@ -129,11 +129,11 @@ The datasets were merged, cleaned, and transformed during preprocessing.
 
 This project demonstrates:
 
--   Designing a content-based recommendation system\
--   Feature engineering from structured and text data\
--   Similarity computation using cosine similarity\
--   Model serialization for deployment\
--   API integration in ML applications\
+-   Designing a content-based recommendation system
+-   Feature engineering from structured and text data
+-   Similarity computation using cosine similarity
+-   Model serialization for deployment
+-   API integration in ML applications
 -   Building interactive ML-powered web applications
 
 ------------------------------------------------------------------------
